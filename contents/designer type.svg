@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="587" height="172" viewBox="0 0 587 172">
+  <defs>
+    <filter id="DESIGNER" x="0" y="0" width="587" height="172" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="designer_type" data-name="designer type" transform="translate(17.5 11.5)">
+    <g transform="matrix(1, 0, 0, 1, -17.5, -11.5)" filter="url(#DESIGNER)">
+      <text id="DESIGNER-2" data-name="DESIGNER" transform="translate(23.5 123.5)" fill="#898980" font-size="129" font-family="MostWazted, Most Wazted"><tspan x="0" y="0">DESIGNER</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,199 @@
+@font-face {
+    font-family: myfont;
+    src: url(BAUHS93/BAUHS93.woff);
+  }
+/* Add a black background color to the top navigation */
+
+body{
+    margin: 0px;
+    background-image: url(contents/bggg.png);
+    background-attachment:scroll;
+    background-size: 100vw 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#particle-js {
+  position: fixed;
+  z-index: 0;
+}
+.particles-js-canvas-el {
+  position: absolute;
+}
+.topnav {
+    z-index: 9999;
+    top: 0px;
+    position: fixed;
+    background-color: #000;
+    overflow: auto;
+    width: 100%;
+    height: 7vh;
+    -webkit-box-shadow: -5px 7px 15px 9px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.45);
+  }
+
+.logo {
+float: none;
+position: absolute;
+top: 10px;
+left: 10px;
+
+
+}
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 7px 16px;
+    margin-left: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-family: myfont;
+    
+    font-size: 1.4em;
+  }
+  .links{
+    float: none;
+    position: absolute;
+    top: 7%;
+    right: 39%;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:#232E42;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #AB2138;
+    color: white;
+  }
+
+.name p{
+    color: white;
+    position: absolute;
+    right: 24vw;
+    font-size: 5vw;
+    margin: 5vw;
+    font-family: myfont;
+    text-shadow: 0px 0px 10px #000000;
+}
+.name {
+  float: initial;
+  width: 100%;
+
+  position: relative;
+  z-index: 100;
+  
+}
+.design {
+    float: left;
+    position: relative;
+    top: 6vh;
+    width: 50%;
+    height: 65vw;
+    
+}
+.design:hover .cls-1{
+    fill: #AB2138;
+    cursor: default;
+    background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+.designtype {
+    float: none;
+    position: absolute;
+    top: 12vw;/*intentional  */
+    height: 20vh;
+    width: 40vw;
+    
+}
+.arrow2 {
+    float: none;
+    position: absolute;
+    top: 25vw;
+    left: 35%;
+    fill: black;
+    transition-duration: 0.5s;
+    height: 5vw;
+}
+.arrow2:hover{
+    transform: rotate(360deg);
+    fill: #AB2138;
+    cursor: none;
+}
+
+.code {
+    position: relative;
+    float: right;
+    top: 6vh;
+    width: 50%;
+    height: 60vw;
+}
+.code:hover .cls-11{
+    fill: #232E42;
+    cursor: default;
+    background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+.codetype {
+    float: none;
+    position: absolute;
+    top: 12vw;/*intentional  */
+    height: 20vh;
+    width: 40vw;
+    right: 10px;
+}
+.arrow {
+    float: none;
+    position: absolute;
+    top: 25vw;
+    right: 35%;
+    fill: black;
+    transition-duration: 0.5s;
+    height: 5vw;
+}
+.arrow:hover{
+    transform: rotate(-360deg);
+    fill: #232E42;
+    cursor: none;
+}
+.pie {
+  position: relative;
+  float: left;
+  background-color: #EEEEEE;
+  height: 35vh;
+  top: 10vh;
+  width: 100%;
+  border-radius: 25px;
+}
+.designlist {
+  background-color: yellow;
+  float: left;
+  position: relative;
+  width: 31vw;
+  top: 2vh;
+  left: 2vw;
+  height: 33vh;
+}
+.codelist {
+  background-color: yellow;
+  float: left;
+  position: relative;
+  width: 31vw;
+  top: 2vh;
+  left: 2vw;
+  height: 33vh;
+}
+.piechart {
+  float: left;
+  position: relative;
+  top: 2vh;
+  left: 2vw;
+  width: 32vw;
+  height: 33vh;
+  background-color: tomato;
+}

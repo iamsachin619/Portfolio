@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="626" height="147" viewBox="0 0 626 147">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #898980;
+        font-size: 130px;
+        font-family: SpaceAge, Space Age;
+      }
+
+      .cls-2 {
+        filter: url(#CODER);
+      }
+    </style>
+    <filter id="CODER" x="0" y="0" width="626" height="147" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="coder_type" data-name="coder type" transform="translate(18 12)">
+    <g class="cls-2" transform="matrix(1, 0, 0, 1, -18, -12)">
+      <text id="CODER-2" data-name="CODER" class="cls-1" transform="translate(18 116)"><tspan x="0" y="0">CODER</tspan></text>
+    </g>
+  </g>
+</svg>
